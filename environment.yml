@@ -1,0 +1,19 @@
+name: imt-211
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - sympy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - ipywidgets
+  - nodejs>=18  # para extensiones de Jupyter modernas si se requieren
+  - networkx
+  - pydy
+  - pip
+  - pip:
+      - plotly

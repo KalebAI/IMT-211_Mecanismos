@@ -1,4 +1,4 @@
-name: imt-211
+name: meca
 channels:
   - conda-forge
   - defaults
